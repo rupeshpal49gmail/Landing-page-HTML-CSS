@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  width: 100%;
+  height: 100%;
+}
+
+#top {
+  width: 100%;
+  height: 60%;
+  background-image: url("https://cdn.pixabay.com/photo/2022/09/21/17/02/blue-background-7470781_640.jpg");
+  background-size: cover;
+}
+
+#overlay {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.281);
+}
+
+#text {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 20%;
+  width: 100%;
+  padding: 0 10vw;
+}
+#textRight {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+#textRight p {
+  color: #ffffff;
+  font-size: 15px;
+  width: 40%;
+}
+
+#icons a {
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+#text h1 {
+  font-size: 6vw;
+  font-weight: 500;
+  color: #ffffff;
+}
+#bottom {
+  width: 100%;
+  height: 40%;
+  background-color: blue;
+  display: flex;
+  color: #fff;
+}
+#bone {
+  width: 25%;
+  height: 100%;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+}
+
+#btwo {
+  color: #ff0000;
+  width: 25%;
+  height: 100%;
+  background-image: url("https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#bthree {
+  width: 20%;
+  height: 100%;
+  border: 2px solid #ffffff;
+}
+#bthreeTop {
+  width: 100%;
+  height: 50%;
+  background-color: rebeccapurple;
+}
+#bThreeBottom {
+  width: 100%;
+  height: 50%;
+  background-color: aqua;
+}
+
+#bfour {
+  width: 30%;
+  height: 100%;
+  background-image: url("https://t4.ftcdn.net/jpg/05/18/41/91/360_F_518419158_yXXBww2r5Z3XoutBxRX8KHNZOpPjhC03.jpg");
+  background-size: cover;
+  background-position: center;
+}
