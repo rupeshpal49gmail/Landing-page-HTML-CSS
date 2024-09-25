@@ -94,11 +94,16 @@ body {
   width: 100%;
   height: 50%;
   background-color: rebeccapurple;
+  display: flex;
+  align-items: end;
 }
-#bThreeBottom {
+#bthreeBottom {
   width: 100%;
   height: 50%;
   background-color: aqua;
+  color: black;
+  display: flex;
+  justify-content: center;
 }
 
 #bfour {
